@@ -25,22 +25,6 @@ The project features an interactive **Streamlit Dashboard** that empowers market
 
 ---
 
-## Directory Structure
-```text
-├── data/
-│   ├── raw/                 # Olist raw relational dataset
-│   └── processed/           # Processed analytical dataset
-├── notebooks/
-│   ├── 01_data_integration.ipynb
-│   ├── 02_eda_feature_engineering.ipynb
-│   ├── 03_customer_segmentation.ipynb
-│   ├── 04_purchase_prediction.ipynb
-│   ├── 05_clv_prediction.ipynb
-│   └── 06_shap_explainability.ipynb
-├── src/
-│   ├── data_processing.py   # Data cleaning & relational merging logic
-│   ├── feature_engineering.py # RFM & behavioral feature pipelines
-│   └── train_models.py      # Classification & regression training scripts
 ├── models/                  # Saved model pipelines and artifacts (.pkl)
 ├── app.py                   # Main Streamlit Dashboard entry point
 ├── requirements.txt         # Project dependencies
